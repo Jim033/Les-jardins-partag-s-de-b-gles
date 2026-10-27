@@ -1,21 +1,41 @@
 {% extends "base.html" %}
+
 {% block content %}
+
 <nav class="menu">
     <a href="/">Accueil</a>
     <a href="/les-jardins/">Les Jardins</a>
     <a href="/contact/">Contact</a>
 </nav>
+
 <div class="contact">
-<h1>{{ page.title }}</h1>
-<p>
-    Pour nous rejoindre ou simplement venir nous rendre visite, contactez-nous :
-</p>
-<ul>
-    <li>📧 <a href="mailto:contact@jardins-begles.fr">contact@jardins-begles.fr</a></li>
-    <li>📍 Allée des Jardiniers, 33130 Bègles</li>
-    <li>🕒 Tous les samedis de 10h à 12h</li>
-</ul>
+
+    <h1>{{ page.title }}</h1>
+
+    <p>
+        Pour nous rejoindre ou simplement venir nous rendre visite, contactez-nous :
+    </p>
+
+    <ul>
+        <li>📧 <a href="mailto:contact@jardins-begles.fr">contact@jardins-begles.fr</a></li>
+        <li>📍 Allée des Jardiniers, 33130 Bègles</li>
+        <li>🕒 Tous les samedis de 10h à 12h</li>
+    </ul>
+
+    <form class="contact-form">
+        <input type="text" placeholder="Votre nom" required>
+
+        <input type="email" placeholder="Votre adresse e-mail" required>
+
+        <input type="text" placeholder="Sujet">
+
+        <textarea placeholder="Votre message" rows="6" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+
 </div>
+
 <footer class="footer">
     <div class="footer-content">
         <p>🌿 Les Jardins Partagés de Bègles</p>
@@ -23,4 +43,5 @@
         <p>© 2026 Tous droits réservés</p>
     </div>
 </footer>
+
 {% endblock content %}

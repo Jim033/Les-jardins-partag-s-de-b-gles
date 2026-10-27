@@ -211,3 +211,45 @@ img {
     padding: 0;
     color: white;
 }
+/* ----- Formulaire de contact ----- */
+
+.contact-form {
+    max-width: 700px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #2e7d32;
+    box-shadow: 0 0 5px rgba(46, 125, 50, 0.3);
+}
+
+.contact-form button {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #1b5e20;
+    transform: translateY(-2px);
+}
