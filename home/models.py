@@ -8,3 +8,6 @@ class HomePage(Page):
 
 class JardinPage(Page):
     pass
+
+class ContactPage(Page):
+    pass
