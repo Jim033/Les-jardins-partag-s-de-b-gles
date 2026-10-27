@@ -167,3 +167,22 @@ p {
         font-size: 1rem;
     }
 }
+.menu {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.menu a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 20px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #4caf50;
+    text-decoration: underline;
+}
