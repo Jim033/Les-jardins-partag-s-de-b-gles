@@ -253,3 +253,10 @@ img {
     background: #1b5e20;
     transform: translateY(-2px);
 }
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+.video {
+    text-align: center;
+}
