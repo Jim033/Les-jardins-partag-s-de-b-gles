@@ -196,3 +196,18 @@ img {
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
+.footer {
+    margin-top: 80px;
+    background: #2e7d32;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 8px 0;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    color: white;
+}
